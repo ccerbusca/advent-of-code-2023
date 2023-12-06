@@ -5,7 +5,6 @@ ThisBuild / scalaVersion := "3.3.1"
 lazy val root = (project in file("."))
     .settings(
       name             := "Advent of Code 2023",
-      idePackagePrefix := Some("advent"),
       libraryDependencies ++= Seq(
         "com.lihaoyi" %% "fastparse" % "3.0.2"
       ),
